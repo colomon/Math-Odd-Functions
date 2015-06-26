@@ -21,7 +21,7 @@ is-approx complementary-error-function(.5), 0.4795, "Erfc(.5) == 0.4795";
 is-approx complementary-error-function(-.5), 1.5205, "Erfc(-.5) == 1.5205";
 is-approx complementary-error-function(1), 0.1572992, "Erfc(1) == 0.1572992";
 is-approx complementary-error-function(-1), 2 - 0.1572992, "Erfc(-1) == 2 - 0.1572992";
-is-approx complementary-error-function(10), 2.08849e-45, "Erfc(10) == 2.08849e-45";
+is-approx complementary-error-function(10), 2.088487e-45, "Erfc(10) == 2.088487e-45";
 is-approx complementary-error-function(-10), 2 - 2.08849e-45, "Erfc(-10) == 2 - 2.08849e-45";
 is-approx complementary-error-function(100), 0, "Erfc(100) == ~0";
 is-approx complementary-error-function(-100), 2, "Erfc(-100) == ~2";
