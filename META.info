@@ -1,4 +1,5 @@
 {
+    "perl"        : "6.*",
     "name"        : "Math::OddFunctions",
     "version"     : "*",
     "description" : "Standard math function odds and ends",
